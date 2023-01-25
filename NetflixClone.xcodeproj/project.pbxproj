@@ -13,6 +13,7 @@
 		F8B7885C297DB52100040E00 /* TitleCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B7885B297DB52100040E00 /* TitleCollectionViewCell.swift */; };
 		F8B7885F297DB65B00040E00 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = F8B7885E297DB65B00040E00 /* SDWebImage */; };
 		F8B78861297DB65B00040E00 /* SDWebImageMapKit in Frameworks */ = {isa = PBXBuildFile; productRef = F8B78860297DB65B00040E00 /* SDWebImageMapKit */; };
+		F8B788632981BF2900040E00 /* TitleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B788622981BF2900040E00 /* TitleTableViewCell.swift */; };
 		F8BD524E29743D6100CF3629 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8BD524D29743D6100CF3629 /* AppDelegate.swift */; };
 		F8BD525029743D6100CF3629 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8BD524F29743D6100CF3629 /* SceneDelegate.swift */; };
 		F8BD525229743D6100CF3629 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8BD525129743D6100CF3629 /* MainTabBarViewController.swift */; };
@@ -31,6 +32,7 @@
 		F8B78855297D490000040E00 /* Title.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Title.swift; sourceTree = "<group>"; };
 		F8B78857297D530200040E00 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		F8B7885B297DB52100040E00 /* TitleCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleCollectionViewCell.swift; sourceTree = "<group>"; };
+		F8B788622981BF2900040E00 /* TitleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleTableViewCell.swift; sourceTree = "<group>"; };
 		F8BD524A29743D6100CF3629 /* NetflixClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetflixClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8BD524D29743D6100CF3629 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F8BD524F29743D6100CF3629 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -111,6 +113,7 @@
 				F8BD526F297451D700CF3629 /* CollectionViewTableViewCell.swift */,
 				F8BD53742978693100CF3629 /* HeroHeaderUIView.swift */,
 				F8B7885B297DB52100040E00 /* TitleCollectionViewCell.swift */,
+				F8B788622981BF2900040E00 /* TitleTableViewCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -223,6 +226,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8B788632981BF2900040E00 /* TitleTableViewCell.swift in Sources */,
 				F8BD52672974475700CF3629 /* SearchVC.swift in Sources */,
 				F8BD525229743D6100CF3629 /* MainTabBarViewController.swift in Sources */,
 				F8BD5270297451D700CF3629 /* CollectionViewTableViewCell.swift in Sources */,

@@ -27,7 +27,7 @@ class APICaller {
             
             do {
                 let results = try JSONDecoder().decode(TrendingTitleResponse.self, from: data)
-                completion(.success(results.results!))
+                completion(.success(results.results))
             } catch {
                 completion(.failure(APIError.failedToGetData))
             }
@@ -41,7 +41,7 @@ class APICaller {
             guard let data = data, error == nil else { return }
             do {
                 let results = try JSONDecoder().decode(TrendingTitleResponse.self, from: data)
-                completion(.success(results.results!))
+                completion(.success(results.results))
             } catch {
                 completion(.failure(APIError.failedToGetData))
             }
@@ -55,7 +55,7 @@ class APICaller {
             guard let data = data, error == nil else { return }
             do {
                 let results = try JSONDecoder().decode(TrendingTitleResponse.self, from: data)
-                completion(.success(results.results!))
+                completion(.success(results.results))
             } catch {
                 completion(.failure(APIError.failedToGetData))
             }
@@ -64,7 +64,7 @@ class APICaller {
     }
     
     func getPopular(completion: @escaping (Result<[Title], Error>) -> Void) {
-        guard let url = URL(string: "\(Constant.baseURL)/3/movie/pupular?api_key=\(Constant.API_KEY)&language=en-US&page=1") else { return }
+        guard let url = URL(string: "\(Constant.baseURL)/3/movie/popular?api_key=\(Constant.API_KEY)&language=en-US&page=1") else { return }
         let task = URLSession.shared.dataTask(with: URLRequest(url: url)) { data, _, error in
             guard let data = data, error == nil else { return }
             do {
@@ -83,7 +83,7 @@ class APICaller {
             guard let data = data, error == nil else { return }
             do {
                 let results = try JSONDecoder().decode(TrendingTitleResponse.self, from: data)
-                completion(.success(results.results!))
+                completion(.success(results.results))
             } catch {
                 completion(.failure(APIError.failedToGetData))
             }

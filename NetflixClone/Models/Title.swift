@@ -8,7 +8,7 @@
 import Foundation
 
 struct TrendingTitleResponse: Decodable {
-    let results: [Title]?
+    let results: [Title]
 }
 
 struct Title: Decodable {
