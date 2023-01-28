@@ -8,6 +8,8 @@
 import UIKit
 
 class TitleTableViewCell: UITableViewCell {
+    
+    static let identifier = "TitleTableViewCell"
   
     private let titlePosterUIImageView: UIImageView = {
        let imageView = UIImageView()
@@ -31,9 +33,6 @@ class TitleTableViewCell: UITableViewCell {
         button.tintColor = .white
         return button
     }()
-
-
-    static let identifier = "TitleTableViewCell"
     
     override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
